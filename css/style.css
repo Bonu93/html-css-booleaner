@@ -1,3 +1,5 @@
+/* GENERAL RULES */
+
 * {
     font-family: 'Urbanist', sans-serif;
 }
@@ -5,12 +7,14 @@ body {
     background-color: #000;
 }
 
+/* MAIN CONTAINER */
 .container {
     margin: auto;
     width: 1000px;
     background-color: #fff;
 }
 
+/* TITLE AND IMAGES */
 header {
     height: 120px;
     background-color: #4EA0FF;
@@ -25,12 +29,17 @@ header {
     height: 60px;
 }
 
+h1 {
+    margin-bottom: 0;
+}
+
 main {
     padding: 8px;
 }
 .meta {
     font-style: bold;
     color: grey;
+    margin: 0;
 }
 #author {
     color:#4EA0FF;
@@ -39,6 +48,7 @@ main {
 .date {
     color: grey;
     font-size: 12px;
+    margin-top: 0;
 }
 
 .blanket{
@@ -49,8 +59,14 @@ main {
     font-size: 12px;
 }
 
+/* ARTICLE */
+
 .highlight {
     background-color: yellow;
+}
+
+.article {
+    margin-bottom: 30px;
 }
 
 table{
@@ -72,6 +88,7 @@ tbody {
     background: white;
 }
 
+/* RELATED SECTION */
 .related1 {
     background-image: url("../img/monitor.jpg");
     background-position: center;

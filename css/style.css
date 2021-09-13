@@ -1,0 +1,22 @@
+* {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 1000px;
+}
+
+header {
+    height: 120px;
+    background-color: #4EA0FF;
+    background-image: url("../img/pattern.png");
+    background-repeat: repeat;
+    background-size: 50%;   
+    
+}
+
+#logo {
+    margin-top: 50px;
+    height: 60px;
+}

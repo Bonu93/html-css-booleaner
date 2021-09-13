@@ -1,10 +1,14 @@
 * {
     font-family: 'Urbanist', sans-serif;
 }
+body {
+    background-color: #000;
+}
 
 .container {
     margin: auto;
     width: 1000px;
+    background-color: #fff;
 }
 
 header {
@@ -12,11 +16,58 @@ header {
     background-color: #4EA0FF;
     background-image: url("../img/pattern.png");
     background-repeat: repeat;
-    background-size: 50%;   
-    
+    background-size: 50%;     
+    padding: 8px;
 }
 
 #logo {
     margin-top: 50px;
     height: 60px;
+}
+
+main {
+    padding: 8px;
+}
+.meta {
+    font-style: bold;
+    color: grey;
+}
+#author {
+    color:#4EA0FF;
+}
+
+.date {
+    color: grey;
+    font-size: 12px;
+}
+
+.blanket{
+    height: 350px;
+}
+
+.caption {
+    font-size: 12px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+table{
+    border-collapse: collapse;
+
+}
+th {
+    text-align: left;
+    width: 30%;
+    color: white;
+    background-color:#4EA0FF ;
+}
+
+tbody {
+    background-color: #B1E5F2;
+}
+
+.white {
+    background: white;
 }
